@@ -5,6 +5,8 @@ modules:
 lint:
   use:
     - DEFAULT
+  ignore:
+    - proto/google/type/datetime.proto
 breaking:
   use:
     - FILE
